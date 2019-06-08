@@ -1,0 +1,19 @@
+<% include partials/header%>
+    <link rel="stylesheet" type="text/css" href="stylesheets/gallery.css">
+    
+    <form class="box" action="/register" method="POST">
+        <h1>Register</h1>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <h4>First time here?</h4>
+        <button>Signup</button>
+
+    </form>
+    <script>
+    document.getElementById("login").classList.remove("active");
+    document.getElementById("signup").classList.add("active");
+   
+    </script>
+    </body>
+    
+<% include partials/footer %>

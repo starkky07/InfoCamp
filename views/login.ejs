@@ -1,0 +1,18 @@
+    <% include partials/header%>
+    <div>
+    <link rel="stylesheet" type="text/css" href="stylesheets/gallery.css">
+    
+    <form class="box" action="/login" method="POST">
+        <h1>Login</h1>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <a href="#">Forgot password?</a>
+        <button>Login</button> 
+        
+    </form>
+    </body>
+    <script>
+    document.getElementById("login").classList.add("active");
+    </script>
+    </div> 
+<% include partials/footer %>
